@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <section class="h-100 w-100 bg-white" style={{boxSizing: "border-box"}}>
+      <section class=" w-100 bg-white" style={{boxSizing: "border-box"}}>
         <div
           class="footer-2-2 container-xxl mx-auto position-relative p-0"
           style={{ fontFamily: "'Poppins', sans-serif;" }}>
