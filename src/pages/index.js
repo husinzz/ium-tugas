@@ -16,7 +16,6 @@ const IndexPage = () => {
           <div>
             <div class="mx-auto d-flex flex-lg-row flex-column hero">
               <div class="left-column d-flex flex-lg-grow-1 flex-column align-items-lg-start text-lg-start align-items-center text-center">
-                <p class="text-caption">FREE 30 DAY TRIAL</p>
                 <h1 class="title-text-big">
                   The best way
                   <br class=" d-lg-block d-none" /> to organize your online
@@ -24,7 +23,7 @@ const IndexPage = () => {
                 </h1>
                 <div class="d-flex flex-sm-row flex-column align-items-center mx-lg-0 mx-auto justify-content-center gap-3">
                   <button class="btn d-inline-flex mb-md-0 btn-try text-white border-0">
-                    Try it free
+                    Galeri
                   </button>
                   <button class="btn btn-outline">
                     <div class="d-flex align-items-center">
@@ -40,7 +39,7 @@ const IndexPage = () => {
                           fill="#707092"
                         />
                       </svg>
-                      Watch the video
+                      Video Ngawi
                     </div>
                   </button>
                 </div>

@@ -56,27 +56,27 @@ export default function Navbar() {
                 <ul class="navbar-nav responsive me-auto mt-2 mt-lg-0">
                   <li class="nav-item active">
                     <a class="nav-link" href="#" style={{ color: "#E7E7E8" }}>
-                      Home
+                      Beranda
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      Feature
+                      Profile Daerah
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      Pricing
+                      Berita
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      About Us
+                      Sejarah Ngawi
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      Contact
+                      Social Media
                     </a>
                   </li>
                 </ul>
@@ -84,9 +84,9 @@ export default function Navbar() {
               <div
                 class="modal-footer border-0 gap-3"
                 style={{ padding: "2rem", paddingTop: "0.75rem" }}>
-                <button class="btn btn-default btn-no-fill">Log In</button>
+                <button class="btn btn-default btn-no-fill">Pemerintahan</button>
                 <button class="btn btn-fill border-0 text-white">
-                  Try Now
+                 Informasi Ngawi 
                 </button>
               </div>
             </div>
@@ -97,33 +97,32 @@ export default function Navbar() {
           <ul class="navbar-nav me-auto mt-2 mt-lg-0">
             <li class="nav-item active">
               <a class="nav-link" href="#" style={{ color: "#E7E7E8" }}>
-                Home
+                Beranda
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Feature
+                Profile Daerah
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Pricing
+                Berita
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                About Us
-              </a>
+                Sejarah Ngawi             </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Contact
+                Social Media
               </a>
             </li>
           </ul>
           <div class="gap-3">
-            <button class="btn btn-default btn-no-fill">Log In</button>
-            <button class="btn btn-fill text-white border-0">Try Now</button>
+            <button class="btn btn-default btn-no-fill">Pemerintahan</button>
+            <button class="btn btn-fill text-white border-0">Informasi Ngawi</button>
           </div>
         </div>
       </nav>
