@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 
 export default function Navbar() {
@@ -59,34 +60,13 @@ export default function Navbar() {
                       Beranda
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      Profile Daerah
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      Berita
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      Sejarah Ngawi
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      Social Media
-                    </a>
-                  </li>
                 </ul>
               </div>
               <div
                 class="modal-footer border-0 gap-3"
                 style={{ padding: "2rem", paddingTop: "0.75rem" }}>
-                <button class="btn btn-default btn-no-fill">Pemerintahan</button>
                 <button class="btn btn-fill border-0 text-white">
-                 Informasi Ngawi 
+                  <Link to="/informasi-ngawi">Informasi Ngawi</Link>
                 </button>
               </div>
             </div>
@@ -100,29 +80,11 @@ export default function Navbar() {
                 Beranda
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Profile Daerah
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Berita
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Sejarah Ngawi             </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Social Media
-              </a>
-            </li>
           </ul>
           <div class="gap-3">
-            <button class="btn btn-default btn-no-fill">Pemerintahan</button>
-            <button class="btn btn-fill text-white border-0">Informasi Ngawi</button>
+            <button class="btn btn-fill border-0 text-white">
+              <Link className="text-white" to="/informasi-ngawi">Informasi Ngawi</Link>
+            </button>
           </div>
         </div>
       </nav>
