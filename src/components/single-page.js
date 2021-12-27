@@ -3,30 +3,46 @@ import React from "react";
 
 const list = [
   {
-    title: "",
-    content : {
-      items : ["harimau joget", "tiara bau belum mandi", "Kuda bernang"]
-    }
+    title: "Tempat Wisata Ngawi",
+    content: {
+      items: [
+        "Taman Wisata Tawun",
+        "Air Terjun Pengantin",
+        "Monumen Soerjo",
+        "Monumen Soerjo",
+        "Museum Trinil Ngawi",
+        "Waterboom Tirto Nirmolo",
+        "Waduk Pondok",
+        "Kebun Teh Jamus",
+        "Taman Hutan Segawen",
+        "Hutan Pinus Suwono",
+        "Ngawi Agro Techno Park",
+        "Air Terjun Suwono",
+        "Srambang Park",
+        "Gapura Mushola Ponpes Pak Soli",
+      ],
+    },
   },
   {
-    title: "Kkudalari",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum ",
-  },
-  {
-    title: "Kkudalari",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum ",
-  },
-  {
-    title: "Kkudalari",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum ",
-  },
-  {
-    title: "Kkudalari",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum ",
+    title: "Tempat Wisata Ngawi",
+    content: {
+      items: [
+        "Taman Wisata Tawun",
+        "Air Terjun Pengantin",
+        "Monumen Soerjo",
+        "Monumen Soerjo",
+        "Museum Trinil Ngawi",
+        "Waterboom Tirto Nirmolo",
+        "Waduk Pondok",
+        "Kebun Teh Jamus",
+        "Taman Hutan Segawen",
+        "Hutan Pinus Suwono",
+        "Ngawi Agro Techno Park",
+        "Air Terjun Suwono",
+        "Srambang Park",
+        "Gapura Mushola Ponpes Pak Soli",
+      ],
+    },
   },
 ];
 
@@ -57,6 +73,7 @@ export default function SinglePage() {
                     key={index}
                     number={index + 1}
                     paragraph={current.paragraph}
+                    content={current.content}
                     title={current.title}
                   />
                 );
@@ -85,7 +102,9 @@ function List(props) {
         </span>
         {props.title}
       </h4>
-      <p class="text-caption">{props.paragraph}</p>
+      {props.content.items.map((current) => {
+        return <p class="text-caption">{current}</p>;
+      })}
     </li>
   );
 }

@@ -1,5 +1,22 @@
 import React from "react";
 
+function CarouselItem(props) {
+  return (
+    <div class={"carousel-item " + props.active}>
+      <img
+        src={props.pic}
+        class="d-block mx-auto"
+        height="612px"
+      />
+      <div class="carousel-caption d-none d-md-block ">
+        <h5>{props.title}</h5>
+        <p>{props.desc}</p>
+      </div>
+    </div>
+  );
+}
+
+
 export default function Carousel() {
   return (
     <>
@@ -27,15 +44,10 @@ export default function Carousel() {
             aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://placeholder.pics/svg/1366x400" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
-          </div>
+          <CarouselItem title={`Monumen Soerjo`} desc={``} pic={`m.png`} active="active" />
+          <CarouselItem title={`Air Terjun Pengantin`} desc={``} pic={`air.png`} />
+          <CarouselItem title={`Waduk Pondok Ngawi`} desc={``} pic={`waduk.png`} />
+          {/* <CarouselItem title={``} desc={``} pic={``} /> */}
         </div>
         <button
           class="carousel-control-prev"
