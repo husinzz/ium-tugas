@@ -5,21 +5,6 @@ export default function Navbar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a href="#">
-          <img
-            style={{ marginRight: "0.75em" }}
-            src="http://api.elements.buildwithangga.com/storage/files/2/assets/Header/Header2/Header-2-3.png"
-            alt=""
-          />
-        </a>
-        <button
-          class="navbar-toggler border-0"
-          type="button"
-          data-bs-toggle="modal"
-          data-bs-target="#targetModal-item">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
         <div
           class="modal-item modal fade"
           id="targetModal-item"
