@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "gatsby"
-import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Carousel from "../components/carousel";
 
