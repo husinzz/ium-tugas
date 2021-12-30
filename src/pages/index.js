@@ -128,10 +128,10 @@ const IndexPage = () => {
 function Card(props) {
   return (
     <div
-      className="card col m-2"
+      className="card col m-2 overflow-auto"
       style={{ minWidth: "20rem",maxWidth: "30rem", maxHeight: "500px" }}>
       <img
-        src={"https://placeholder.pics/svg/200x100" || props.image}
+        src={ props.image|| "https://placeholder.pics/svg/200x100" }
         className="card-img-top"
         alt="card picture"
       />
