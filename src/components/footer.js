@@ -3,7 +3,9 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <section class=" w-100" style={{boxSizing: "border-box", backgroundColor: "rgb(20, 20, 50)"}}>
+      <section
+        class=" w-100"
+        style={{ boxSizing: "border-box", backgroundColor: "rgb(20, 20, 50)" }}>
         <div
           class="footer-2-2 container-xxl mx-auto position-relative p-0"
           style={{ fontFamily: "'Poppins', sans-serif;" }}>
@@ -117,22 +119,6 @@ export default function Footer() {
                   </svg>
                 </a>
               </div>
-              <nav class="mx-auto d-flex flex-wrap align-items-center justify-content-center gap-4">
-                <a href="" class="footer-link" style={{textDecoration: "none"}}>
-                  Terms of Service
-                </a>
-                <span>|</span>
-                <a href="" class="footer-link" style={{textDecoration: "none"}}>
-                  Privacy Policy
-                </a>
-                <span>|</span>
-                <a href="" class="footer-link" style={{textDecoration: "none"}}>
-                  Licenses
-                </a>
-              </nav>
-              <nav class="d-flex flex-lg-row flex-column align-items-center justify-content-center">
-                <p style={{margin: "0"}}>Copyright © 2021 Analystic Max</p>
-              </nav>
             </div>
           </div>
         </div>

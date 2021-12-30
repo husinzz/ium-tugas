@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "gatsby"
+import { Link } from "gatsby";
 import Footer from "../components/footer";
 import Carousel from "../components/carousel";
 
@@ -89,21 +89,21 @@ const IndexPage = () => {
   return (
     <>
       <section
-        class="w-100"
-        style={{ boxSizing: "border-box", backgroundColor: "#141432" }}>
+        class="h-25 d-flex justify-content-center align-items-center"
+        style={{ backgroundColor: "#141432" }}>
         <div
-          class="container-xxl mx-auto p-0  position-relative header-2-3 py-5"
+          class="text-white fs-1"
           style={{ fontFamily: "'Poppins', sans-serif;" }}>
-          <div>
-            <Carousel />
-          </div>
+          Selamat datang di pusat informasi wisata ngawi
         </div>
       </section>
       <section
         class="w-100 py-5"
         id="info"
         style={{ boxSizing: "border-box", backgroundColor: "#141432" }}>
-        <h2 class="title-text text-white p-3 text-center">Infomasi tempat wisata</h2>
+        <h2 class="title-text text-white p-3 text-center">
+          Infomasi tempat wisata
+        </h2>
         <div className="container mx-auto">
           <div className="row justify-content-evenly">
             {list.map((current, index) => {
@@ -128,19 +128,22 @@ const IndexPage = () => {
 function Card(props) {
   return (
     <div
-      className="card col m-2 overflow-auto"
-      style={{ minWidth: "20rem",maxWidth: "30rem", maxHeight: "500px" }}>
+      className="card col m-2"
+      style={{ minWidth: "20rem", maxWidth: "30rem"}}>
       <img
-        src={ props.image|| "https://placeholder.pics/svg/200x100" }
+        src={props.image || "https://placeholder.pics/svg/200x100"}
         className="card-img-top"
         alt="card picture"
       />
       <div className="card-body">
-        <div className="overflow-auto" style={{ maxHeight: "150px" }}>
-          <h5 className="card-title py-1">
-            <strong>{props.title}</strong>
-          </h5>
-          <p className="card-text">{props.info}</p>
+        <div className="">
+          <details>
+            <summary className="card-title py-1">
+              <strong>{props.title}</strong>
+            </summary>
+
+            <p className="card-text">{props.info}</p>
+          </details>
         </div>
         <a href={props.link} className="btn btn-primary my-3">
           Google Maps
