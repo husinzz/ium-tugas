@@ -104,19 +104,83 @@ const IndexPage = () => {
         <h2 class="title-text text-white p-3 text-center">
           Infomasi tempat wisata
         </h2>
+
         <div className="container mx-auto">
-          <div className="row justify-content-evenly">
-            {list.map((current, index) => {
-              return (
-                <Card
-                  image={current.image}
-                  title={current.title}
-                  info={current.info}
-                  link={current.link}
-                  key={index}
-                />
-              );
-            })}
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#home"
+                type="button"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true">
+                Tempat Wisata
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#profile"
+                type="button"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false">
+                UMKM Daerah
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#contact"
+                type="button"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false">
+                Makanan
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home"
+              role="tabpanel"
+              aria-labelledby="home-tab">
+              <div className="row justify-content-evenly">
+                {list.map((current, index) => {
+                  return (
+                    <Card
+                      image={current.image}
+                      title={current.title}
+                      info={current.info}
+                      link={current.link}
+                      key={index}
+                    />
+                  );
+                })}
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="profile"
+              role="tabpanel"
+              aria-labelledby="profile-tab">
+              2
+            </div>
+            <div
+              class="tab-pane fade"
+              id="contact"
+              role="tabpanel"
+              aria-labelledby="contact-tab">
+              3
+            </div>
           </div>
         </div>
       </section>
@@ -129,7 +193,7 @@ function Card(props) {
   return (
     <div
       className="card col m-2"
-      style={{ minWidth: "20rem", maxWidth: "30rem"}}>
+      style={{ minWidth: "20rem", maxWidth: "30rem" }}>
       <img
         src={props.image || "https://placeholder.pics/svg/200x100"}
         className="card-img-top"
