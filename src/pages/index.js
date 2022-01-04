@@ -135,6 +135,39 @@ const makanan = [
   },
 ];
 
+const kerajinan = [
+  {
+    image: "/image/kerajinan/pengrajinkayu.jpg",
+    title: "Sentra Kerajinan Bonggol Jati",
+    info: "Sentra kerajinan gembol jati berada dikecamatan Ngawi Bringin Widodaren dan Mantingan Kerajinan Limbah Kayu Jati Disamping kerajinan gembol kayu jati di Kabupaten Ngawi terdapat juga kerajinan limbah kayu jati Sama seperti kerajinan gembol kerajinan ini juga memanfaatkan kayu jati sebagai bahan utamanya.  Bonggol kayu jati oleh pengrajin diubah menjadi barang bernilai seni tinggi yang banyak diminati oleh kolektor benda antik baik dalam maupun luar negeri. Harganya relatif dari Rp150 ribu sampai dengan jutaan tergantung dari tingkat kesulitan saat mengerjakan dan besarnya barang., ",
+    link: " https://goo.gl/maps/MokXSkYB2fzqJanH7 ",
+  },
+  {
+    image: "/image/kerajinan/kerajinanakar.jpg",
+    title: "Kerajinan Akar Jati",
+    info: "Seni kerajinan akar jati adalah semua hasil kreasi seni dalam bentuk barang kerajinan yang dibuat dari akar kayu jati. Seni kerajinan akar jati dapat berfungsi sebagai seni murni (pure art) atau seni pakai (applied art). Akar kayu jati memiliki nilai keindahan, keunikan, dan tingkat kualitas tersendiri sebagai bahan dasar pembuatan seni ukir kreasi baru dan seni kriya kayu rustik. Pada seni ukir kreasi baru akar atau tunggak diukir dengan menampilkan objek-objek tertentu, sedangkan pada seni kriya kayu bergaya rustik akar jati tersebut tidak mengalami perubahan bentuk yang signifikan. Bentuk lekukan-lekukan alami masih tetap dipertahankan. ",
+    link: " https://goo.gl/maps/KTh7MpYfS1EApMos7 ",
+  },
+  {
+    image: "/image/kerajinan/TasAnyaman.jpg",
+    title: "Kerajinan Tas Anyaman Plastik",
+    info: "ndustri tas cantik anyaman plastik di desa Brangol telah dirintis oleh UD. Dutra Bagia milik H.Sukamto dan Hj. Endang Setyowati yang beralamat di Jalan Paras, Dusun Brangol Rt 02 RW 02 Desa Brangol. Upaya inovasi dan pengembangan produk untuk meningkatkan nilai jual. Pemilihan model, bahan baku dan warna turut menunjang peningkatan kualitas produk yang di inginkan. Produk yang dihasilkan memiliki desain dan kualitas seperti barang mewah yang dipasarkan dengan harga murah. Sekaligus untuk menaikkan segmentasi pasar dan akhirnya menambah pendapatan pengrajin tas anyaman plastik. Bahan utama pembuatan tas ini dari plastik sekaca berasal dari kota Ngawi. Plastik sekaca inilah yang dianyam oleh puluhan bahkan ratusan ibu – ibu untuk dirubah menjadi tas beraneka bentuk dan warna. Sementara harga jual setiap unit tas berbahan plastik untuk pasar lokal berkisar Rp 4 ribu sampai Rp 15 ribu dan untuk pasaran luar pulau sudah mampu menembus angka Rp 10 ribu sampai Rp 30 ribu. Dengan nilai yang cukup fantastis bukan berati usaha ini tidak memiliki ganjalan yaitu selain bahan baku juga kesulitan tenaga kerja. Biasanya kesulitan tenaga kerja terjadi di saat musim panen tiba, banyak para pekerja yang notabene warga sekitar bekerja di lahan pertanianya sendiri, semoga usaha ini bisa menginspirasi warga desa Brangol ",
+    link: " https://goo.gl/maps/dNAFyuZpmd4YCHuv6 ",
+  },
+  {
+    image: "/image/kerajinan/bambu.jpg",
+    title: " Kerajinan Anyaman Bambu ",
+    info: "Desa Dero Kecamatan Bringin Kabupaten Ngawi adalah Salah satu desa yang mengembangkan kerajinan anyaman bambu.Kerajinan anyaman bambu yang dihasilkan para pengrajin rumahan asal Desa Dero ini memiliki ciri khasnya tersendiri. Anyaman bambu yang dihasilkan terkenal kuat karena dibuat menggunakan tangan dan sangat telaten dalam pembuatannya. Selain itu, anyaman bambu yang dibuat pun tidak melupakan fungsi estetika. Tak heran Pemerintah Kabupaten Ngawi melalui Sektretaris Daerah dan BKM Ngawi di tahun 2018 mengundang para pengrajin untuk mengikuti pelatihan di pendopo kabupaten Ngawi,sehingga desa Dero terkenal dengan anyaman bambunya dan menjadi Produk Unggulan Desa Dero. setiap harinya membuat beberapa produk kerajinan yang diantaranya berupa Souvenir, Hiasan Lampu yang terbuat dari bambu, lampion, Keranjang Buah, Tempat Hantaran, Piring Lidi, Tumbu dan Kerajinan Anyaman lainnya. ",
+    link: " https://goo.gl/maps/d24tG6LQDdpS2vrA6 ",
+  },
+  {
+    image: "/image/kerajinan/batikngawi.jpg",
+    title: "  Batik Ngawi ",
+    info: "Ngawi merupakan salah satu kabupaten yang berada di jawa Timur. Lokasinya berbatasan langsung dengan Jawa Tengah. Salah satu produk unggulan kota Ngawi yaitu Batik Ngawi. Ada berbagai motif batik Ngawi, motif-motif tersebut merupakan ciri khas dari ornamen-ornamen kota Ngawi.  Sejarah Batik Ngawi berawal dari kegiatan membatik sejak jaman nenek moyang. Awalnya, kegiatan membatik hanya pekerjaan sampingan tapi sekarang membatik mulai menjadi pekerjaan utama bagi kaum ibu di sentra kerajinan Batik Ngawi yang terdapat di beberapa lokasi, yaitu Desa Munggut, Kecamatan Padas, dan Desa Banyubiru, Kecamatan Widodaren. Desa lain juga ada yang mulai menggiatkan membatik yaitu Desa Jenggrik dan Desa Gentong. Disini bertujuan untuk melestarikan budaya serta memberikan penghasilan bagi warga. Motif Batik Ngawi bisa dibedakan menjadi dua yaitu, batik motif yang dibuat di desa Desa Munggut, Kecamatan Padas, dan Desa Banyubiru, Kecamatan Widodaren. Motif batik yang dibuat di Desa Munggut Kecamatan Padas yaitu Motif Benteng Pendem, Motif Bambu Jati, Bambu Jati Abang, Bambu Rebung, Bambu Trinil, Pring Gadhing, Motif Kedelai, Melon Khas Ngawi, Jati Aking, Padi Mendhung, Padi Sawah, Teh Jamus, The Pucuk, Mawar dan Kupu-Kupu, Motif Kali Tempuk, Motif Pithecantropus Erectus, Trinil Bledak, Parang Trinil, Perang Antar Suku, Lereng Ceplok Trinil, Ngawi Joyo I dan II, Lereng Gading, Nomaden, dan masih banyak lagi motif yang lainnya. Sedangkan motif yang dibuat di Desa Banyubiru Kecamatan Widodaren yaitu adalah Gringsing, Bokor Kencono, dan Sido Mukti.",
+    link: " https://goo.gl/maps/uASeTrzwwABXw69Y8 ",
+  },
+];
+
 // markup
 const IndexPage = () => {
   return (
@@ -181,7 +214,7 @@ const IndexPage = () => {
                 role="tab"
                 aria-controls="profile"
                 aria-selected="false">
-                UMKM Daerah
+                Kerajinan
               </button>
             </li>
             <li class="nav-item" role="presentation">
@@ -223,7 +256,19 @@ const IndexPage = () => {
               id="profile"
               role="tabpanel"
               aria-labelledby="profile-tab">
-              2
+              <div className="row justify-content-evenly">
+                {kerajinan.map((current, index) => {
+                  return (
+                    <Card
+                      image={current.image}
+                      title={current.title}
+                      info={current.info}
+                      link={current.link}
+                      key={index}
+                    />
+                  );
+                })}
+              </div>
             </div>
             <div
               class="tab-pane fade"
