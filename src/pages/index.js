@@ -84,6 +84,57 @@ const list = [
   },
 ];
 
+const makanan = [
+  {
+    image: "/image/makanan/kripiktempe.jpg",
+    title: "Keripik Tempe Ngawi",
+    info: "Ngawi memiliki camilan khas, yakni keripik tempe. Sesuai dengan namanya, keripik tempe dibuat dari bahan dasar tempe yang telah melalui banyak proses sehingga menghasilkan cita rasa khas, Meskipun terlihat sederhana, keripik tempe khas Ngawi memiliki citarasa yang berbeda bila dibandingkan keripik tempe di kota lain. Cara pembuatannya yang tradisional dan alami serta bebas dari pengawet menjadikan kripik tempe khas Ngawi menjadi primadona.serta memiliki rasa gurih renyah saat dikunyah.",
+    link: " https://goo.gl/maps/dUDDEUQV1XvEW4u4A",
+  },
+  {
+    image: "/image/makanan/lapisngawi.jpg",
+    title: "Lapis Khas Ngawi",
+    info: " Buah tangan khas Ngawi yang bisa Anda buru selanjutnya adalah Kue Lapis. Kue lapis termasuk panganan kekinian yang kehadirannya langsung menarik perhatian. Diperkenalkan Andri Raharjo, kuliner ini bisa dikatakan berbeda dengan kuliner pada umumnya. Dimana dalam Festival Kuliner di Ngawi, Kue lapis ini menyabet juara pertamanya. Kue Lapis hadir dengan beberapa varian rasa yang bisa Anda jadikan pilihan. Varian tersebut di antaranya adalah original, rasa pandan juga red velvet. Teksturnya yang lembut dengan rasa legit menjadikan kuliner ini selalu diburu oleh wisatawan. Apalagi oleh-oleh Khas Ngawi ini juga memiliki kemasan yang menarik dan kekinian. ",
+    link: " https://goo.gl/maps/KbvQPHdpEG85d1Qf9 ",
+  },
+  {
+    image: "/image/makanan/ledrengawi.jpg",
+    title: "Ledre Khas Ngawi",
+    info: " Ledre menjadi buah tangan yang begitu kondang di Ngawi dan wajib untuk Anda bawa pulang. Ledre sendiri merupakan panganan tradisional dari masyarakat Bojonegoro. Tetapi Anda juga bisa mendapatkan panganan ini di Ngawi. Bahkan sangat mudah untuk menemukan makanan yang mirip dengan egg roll ini. Ledre memang memiliki bentuk mirip dengan beberapa kue yang kondang di Indonesia, seperti semprong atau egg roll. Bahan yang digunakan dalam pembuatan ledre terdiri dari tepung beras, santan, gula pasir, pisang raja dan telur. Semua bahan akan diolah sedemikian rupa sehingga menghasilkan ledre yang nikmat dan memiliki banyak penggemar. Rasanya yang manis serta gurih dengan bau pisang yang khas, semakin pas dengan teksturnya yang renyah. Aroma khas pisang inilah yang menjadi ciri khas dari Ledre di Ngawi. Membuat siapapun yang mencobanya ingin menikmatinya lagi. Bagi Anda yang bertandang ke Ngawi, Anda bisa menjadikan Ledre sebagai buah tangan.",
+    link: " https://goo.gl/maps/UdrgfUDy8sg2KsyJ6 ",
+  },
+  {
+    image: "/image/makanan/Lethok.jpg",
+    title: "Lethok Khas Ngawi",
+    info: " Sajian lethok adalah makanan tradisional ddari Kabupaten Ngawi, Jawa Timur. Lethok pada dasarnya terbuat dari tempe yang telah membusuk dan sudah mengeluarkan lendir atau yang sering disebut tempe semangit. Masyarakat Ngawi menyebutnya sebagai tempe bosok. Walaupun demikian rasa dari lethok gurih dan pedas. Rasa gurih berasal dari tempe semangit yang dihaluskan lalu dimasak bersama santan  ditambahkan cabai, bawang merah, serta rempah lainnya yang sudah dihaluskan",
+    link: " https://goo.gl/maps/qEChYJMFJnQnVFjK6 ",
+  },
+  {
+    image: "/image/makanan/nasipecelngawi.jpg",
+    title: "Nasi Pecel Khas Ngawi",
+    info: " Nasi pecel memang bisa kamu jumpai di beberapa daerah di Indonesia.Namun, di Ngawi nasi pecel memiliki cita rasa yang berbeda. Cara penyajiannya pun berbeda dengan nasi pecel pada umumnya yaitu dengan daun pisang yang berbentuk segitiga. Selain itu bumbu pecel yang dipakai terasa halus dan bumbu kacangnya tidak terlalu halus sehingga rasa kacangnya masih terasa gurih. Biasanya untuk penyajiannya, nasi pecel Ngawi dilengkapi dengan rempeyek. ",
+    link: " https://goo.gl/maps/UwZnVMApyhFqLnRM7 ",
+  },
+  {
+    image: "/image/makanan/sateayamngawi.jpg",
+    title: "Sate Godog Khas Ngawi",
+    info: " Jika biasanya dibakar, berbeda dengan sate godog khas Ngawi, Jawa Timur ini. Sesuai dengan namanya, sate godog ini dimasak dengan cara direbus. Selain direbus, sate ini semakin spesial karena menggunakan bahan utama, yakni ayam kampung. Penampilan dari sate godog ini sangat menggiurkan.Warnanya yang kuning segar dan aromanya yang wangi serta irisan dagingnya sangat menggugah selera.Apalagi terdapat racikan bumbu rempah-rempah ala Jawa Timur semakin membuat sate godog ini semakin lezat.Meski menggunakan ayam kampung, sate ini dimasak dengan cara tepat sehingga membuat dagingnya lembut saat dimakan dan tak alot. ",
+    link: " https://goo.gl/maps/y5EG3biksqjTzxn3A ",
+  },
+  {
+    image: "/image/makanan/tepotahu.jpg",
+    title: "Tepo Tahu Khas Ngawi",
+    info: "Tepo tahu adalah salah satu makanan khas yang berasal dari kota Ngawi- Jawa Timur. Sebagian orang menyebutnya berasal dari Magetan yang letak secara geografisnya berdekatan dengan Ngawo. Tepo merupakan makanan yang berasal dari beras, seperti lontong hanya teksturnya dan bentuknya berbeda. Apabila lontong dibungkus daun pisang dengan bentuk memanjang, maka tepo biasanya dibungkus dengan bentuk segitiga sehingga menyerupai piramid",
+    link: " https://goo.gl/maps/g1JUskkpSPxM5Je27 ",
+  },
+  {
+    image: "/image/makanan/wedangcemoe.jpg",
+    title: "Wedang Cemoe Khas Ngawi",
+    info: "Wedang cemue, merupakan salah satu minuman khas Ngawi, salah satu kuliner khas Ngawi, selain tempe kripik,ledre, dan tahu tepo. Wedang Cemue secara rasa boleh dibilang unik. Uniknya dimana? Uniknya dari segi bahan dan rasa. Wedang Cemue dipadukan dengan manisnya gula tebu, pedas jahe, gurih dan legitnya roti tawar, serta krenyes krenyesnya kacang “klici” dan tak lupa dalam minuman ini terdapat pula taburan/toping bawang merah goring dan aroma-aroma wangi daun padan.",
+    link: " https://goo.gl/maps/5y2vL6Pp24WXLx2FA ",
+  },
+];
+
 // markup
 const IndexPage = () => {
   return (
@@ -179,7 +230,19 @@ const IndexPage = () => {
               id="contact"
               role="tabpanel"
               aria-labelledby="contact-tab">
-              3
+              <div className="row justify-content-evenly">
+                {makanan.map((current, index) => {
+                  return (
+                    <Card
+                      image={current.image}
+                      title={current.title}
+                      info={current.info}
+                      link={current.link}
+                      key={index}
+                    />
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
