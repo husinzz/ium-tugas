@@ -170,7 +170,7 @@ const kerajinan = [
 
 const hotel = [
   {
-    image: "/image/hotel/hotelreddoor.jpg",
+    image: "/image/hotel/hotelreddoor.jpeg",
     title: "Hotel RedDoorz Near Benteng Van Den Bosch ",
     info: "RedDoorz near Benteng Van Den Bosch terletak di Ngawi. Tempat parkir pribadi dapat diatur dengan biaya tambahan.Setiap kamar di guest house ini memiliki kamar mandi pribadi.RedDoorz near Benteng Van Den Bosch dapat dengan mudah memberikan informasi di bagian resepsionis untuk membantu Anda berkeliling daerah tersebut.",
     link: "https://goo.gl/maps/Dv1w4ck6Z1j86bgs9",
