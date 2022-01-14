@@ -168,6 +168,53 @@ const kerajinan = [
   },
 ];
 
+const hotel = [
+  {
+    image: "/image/hotel/hotelreddoor.jpg",
+    title: "Hotel RedDoorz Near Benteng Van Den Bosch ",
+    info: "RedDoorz near Benteng Van Den Bosch terletak di Ngawi. Tempat parkir pribadi dapat diatur dengan biaya tambahan.Setiap kamar di guest house ini memiliki kamar mandi pribadi.RedDoorz near Benteng Van Den Bosch dapat dengan mudah memberikan informasi di bagian resepsionis untuk membantu Anda berkeliling daerah tersebut.",
+    link: "https://goo.gl/maps/Dv1w4ck6Z1j86bgs9",
+  },
+  {
+    image: "/image/hotel/HotelSukawati.jpg",
+    title: "Hotel Sukowati Ngawi",
+    info: "Hotel ini terletak di pusat kota, dekat dengan perempatan pusat dari Kota Ngawi (Perempatan Kartonyono). Hotel ini sekitar 300 meter dari kota Ngawi yang merupakan tempat wisata Kota Ngawi. Hotel ini memiliki sertifikasi tingkat Bintang 2 dengan dua lantai yang menyajikan pemandangan kota. Harga kamar di hotel ini berkisar antara Rp 100.000-Rp 200.000 dengan fasilitas yang cukup standar",
+    link: "https://goo.gl/maps/cpHSPPNse1zCVDDU7",
+  },
+  {
+    image: "/image/hotel/JagatStay.jpg",
+    title: "Hotel Jagat Stay n Dine",
+    info: "Hotel Jagat Stay N Dine ini berlokasi di  Margomulyo, Kec. Ngawi, Kabupaten Ngawi, Jawa Timur , hotel ini dekat dengan Alun Alun ngawi. Merupakan penginapan dengan harga sewa murah, bangunan dan fasilitas yang disediakan Jagat Stay n Dine @MYRooms ternyata tidak dapat dikatakan murahan. Saat menginap, wisatawan bisa menikmati kamar-kamar berukuran medium dengan fasilitas seperti Wi-Fi gratis di semua ruangan, televisi, pendingin ruangan, ranjang berukuran sedang, hingga kamar mandi plus toilet duduk dan wastafel. Menurut salah satu situs booking online, tarif Superior Room di tempat ini mulai Rp170 ribuan per malam. Sementara, online travel agent yang lain menawarkan kamar Superior dengan biaya Rp160 ribu hingga Rp200 ribuan per malam, belum termasuk sarapan. Jika Anda membutuhkan informasi lebih detail, bisa menghubungi pengelola melalui nomor ponsel 0813 3338 3361. ",
+    link: "https://goo.gl/maps/UGRntNi1kbfNEKFr9",
+  },
+  {
+    image: "/image/hotel/NgawiIndah.jpg",
+    title: "Hotel Ngawi Indah",
+    info: "Hotel Ngawi Indah berlokasi di Jalan Raya Ngawi Caruban tepatnya berada di RT 05 RW 05 Dusun Karang Tengah desa pranten Kecamatan Ngawi Kabupaten Ngawi Provinsi Jawa Timur. Tempat kami berada di lingkungan Kota Ngawi yang tentunya dengan panorama yang sangat indah sekitar area Kecamatan Ngawi Kabupaten Ngawi dengan fasilitas yang sangat lengkap di sini harga juga terjangkau maka dari itu penginapan ini sangat cocok untuk keluarga jika anda berkunjung di kota Ngawi.",
+    link: "https://goo.gl/maps/nWfyHACLU4r5nRWg7",
+  },
+];
+
+const instagramable = [
+  {
+    image: "/image/instagramable/air_terjunsuwono.jpg",
+    title: "Air Terjun Suwono Ngawi",
+    info: "Bukan menjadi ha lasing lagi bahwa daerah ngawi terdapat pesone alam yang menakjubkan. Salah satu pesona wisata alam yang tidak banyak diketahui adalah Air Terjun Suwono. Air terjun yang elok ini berasal dari Gunung lawu, sebab berada di lereng gunung tersebut. Meskipun air terjun ini terpencil dan berada tersembunyi namun wisata ini sudah dikelola secara pribadi oleh warga setempat.",
+    link: "https://goo.gl/maps/1Ax5paG4fyUtgedw8",
+  },
+  {
+    image: "/image/instagramable/air-terjun-pengantin-ngawi.jpg",
+    title: "Air Terjun Pengantin Ngawi",
+    info: " Kabupaten Ngawi memiliki sebuah destinasi wisata air terjun yang masih perawan dan belum banyak diketahui oleh masyarakat luas. Warga setempat menyebutnya dengan nama Air Terjun Pengantin, yang memiliki tinggi sekitar 12 meter. Uniknya, air terjun ini berasal dari sumber yang berbeda, yang satu dari sungai lahar Gunung Lawu, sedangkan yang lain dari sumber mata air setempat. Karena keberadaannya yang bersandingan seperti halnya pria dan wanita itulah mengapa warga sekitar mengganti namanya dari Grojogan Ndungji atau Jumog menjadi ATP. Air terjun di Kecamatan Ngrambe tersebut menawarkan pemandangan yang berbeda. Kawasannya benar-benar masih alami dengan nuansa yang sejuk dan nyaman. Anda bisa mendengar gemercik suara airnya yang seolah mengajak berbicara. Anda pun dapat mandi dan berenang di bawah air terjun serta menikmati suasana hutan di sekitarnya.",
+    link: "https://g.page/ATPNgawi?share",
+  },
+  {
+    image: "/image/instagramable/Watu-Jonggol-Ngawi.jpg",
+    title: "Watu Jonggo Ngawi",
+    info: " Salah satu wisata di kaki Gunung Lawu yang tak boleh kamu lewatkan adalah Watu Jonggol Ngawi. Destinasi yang menawarkan wisata alam yang terletak di area pemukiman namun memberikan pesona yang instagramable. Bahkan ada yang menyebutkan pemandangan alam disana tak tertandingi dengan wisata lain. Setibanya disana, pengunjung bakal disuguhkan dengan ikon utama berupa batu yang tertata di tebing. Ketika memasuki area dalam, maka juga akan dijumpai sejumlah patung yang cocok untuk foto – foto. Bahkan Ada pula air terjun hingga kolam renang baik untuk anak-anak maupun untuk dewasa. ",
+    link: "https://goo.gl/maps/FAj7boHFsasgMnve7",
+  },
+];
 // markup
 const IndexPage = () => {
   return (
@@ -230,6 +277,32 @@ const IndexPage = () => {
                 Makanan
               </button>
             </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="hotel-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#hotel"
+                type="button"
+                role="tab"
+                aria-controls="hotel"
+                aria-selected="false">
+                Hotel
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="instagram-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#instagram"
+                type="button"
+                role="tab"
+                aria-controls="instagram"
+                aria-selected="false">
+                Instagramable
+              </button>
+            </li>
           </ul>
           <div class="tab-content" id="myTabContent">
             <div
@@ -258,6 +331,44 @@ const IndexPage = () => {
               aria-labelledby="profile-tab">
               <div className="row justify-content-evenly">
                 {kerajinan.map((current, index) => {
+                  return (
+                    <Card
+                      image={current.image}
+                      title={current.title}
+                      info={current.info}
+                      link={current.link}
+                      key={index}
+                    />
+                  );
+                })}
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="hotel"
+              role="tabpanel"
+              aria-labelledby="hotel-tab">
+              <div className="row justify-content-evenly">
+                {hotel.map((current, index) => {
+                  return (
+                    <Card
+                      image={current.image}
+                      title={current.title}
+                      info={current.info}
+                      link={current.link}
+                      key={index}
+                    />
+                  );
+                })}
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="instagram"
+              role="tabpanel"
+              aria-labelledby="instagram-tab">
+              <div className="row justify-content-evenly">
+                {instagramable.map((current, index) => {
                   return (
                     <Card
                       image={current.image}
