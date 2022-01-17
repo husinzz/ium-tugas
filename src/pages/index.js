@@ -303,6 +303,19 @@ const IndexPage = () => {
                 Instagramable
               </button>
             </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="jalan-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#jalan"
+                type="button"
+                role="tab"
+                aria-controls="jalan"
+                aria-selected="false">
+                Rencana Perjalanan
+              </button>
+            </li>
           </ul>
           <div class="tab-content" id="myTabContent">
             <div
@@ -400,6 +413,40 @@ const IndexPage = () => {
                 })}
               </div>
             </div>
+            <div
+              class="tab-pane fade"
+              id="jalan"
+              role="tabpanel"
+              aria-labelledby="jalan-tab">
+              <div className="row justify-content-evenly">
+                {perjalanan.map((current, index) => {
+                  return (
+                    <Perjalanan image={current.image} key={index}>
+                      <p>{current.title}</p>
+                      {current.hari.map((current, index) => {
+                        return (
+                          <details key={index}>
+                            <summary>Hari {index + 1}</summary>
+                            {current.tempat.map((current, index) => {
+                              return (
+                                <div className="" key={index}>
+                                  <details>
+                                    <summary className="card-title py-1">
+                                      <strong>{current.title}</strong>
+                                    </summary>
+                                    <p className="card-text">{current.info}</p>
+                                  </details>
+                                </div>
+                              );
+                            })}
+                          </details>
+                        );
+                      })}
+                    </Perjalanan>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -407,6 +454,136 @@ const IndexPage = () => {
     </>
   );
 };
+
+const perjalanan = [
+  {
+    title: "Benteng Pendem",
+    image: "/image/info/bentengpendem.jpg",
+    hari: [
+      {
+        // 1
+        tempat: [
+          {
+            image: "hotelreddoor.jpg",
+            title: "Tidur di Hotel RedDoorz Near Benteng Van Den Bosch",
+            info: "RedDoorz near Benteng Van Den Bosch terletak di Ngawi. Tempat parkir pribadi dapat diatur dengan biaya tambahan.Setiap kamar di guest house ini memiliki kamar mandi pribadi.RedDoorz near Benteng Van Den Bosch dapat dengan mudah memberikan informasi di bagian resepsionis untuk membantu Anda berkeliling daerah tersebut.",
+            link: "https://goo.gl/maps/Dv1w4ck6Z1j86bgs9",
+          },
+        ],
+      },
+      {
+        // 2
+        tempat: [
+          {
+            image: "dapoersangit.jpg",
+            title: "Makan di Kedai Dapoer Sangit",
+            info: "Dapoer sangit sendiri merupakan singkatan dari Dapoer Rasa selangit. Dengan inisiatifnya Evans Merydiane, sang pemilik juga menyasar para pecinta kuliner yang sedang diet atau takut kegemukan. Warung ini sangat cocok untuk tetap menikmati masakan yang rendak lemak",
+            link: "https://goo.gl/maps/6vgu9LDrtc5rLjq79",
+          },
+          {
+            image: "bentengpendem.jpg",
+            title: "Visit Benteng Van den Bosch",
+            info: "Meski sudah berusia hampir dua abad dan sudah tidak difungsikan sebagai pertahanan, benteng ini masih menjaga eksotismenya. Kendati demikian, sebagian bangunan sudah tidak utuh lantaran terkena serangan bom pasukan Jepang pada 1942. Lebih lanjut, beberapa bagian dinding pun sudah terlihat kusam. Akan tetapi, eloknya bangunan khas Eropa tersebut masih dapat dilihat hingga kini oleh wisatawan yang berkunjung.",
+            link: "https://goo.gl/maps/g3kBDTuwkGniJgPQ8",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Air Terjun Pengantin",
+    image: "/image/info/airterjunpengantin.jpg",
+    hari: [
+      {
+        tempat: [
+          {
+            image: "hotelmaksum.jpg",
+            title: "Tidur di Hotel Maksum Ngawi",
+            info: "Hotel Maksum Family terletak di Ngawi. Semua kamar memiliki TV kabel dan kamar mandi pribadi. Akomodasi ini menyediakan resepsionis 24 jam",
+            link: "https://goo.gl/maps/EJgZuYawS2qXqgQx7",
+          },
+        ],
+      },
+      {
+        tempat: [
+          {
+            image: "warungsemilir.jpg",
+            title: "Makan di Warung Semilir Ngawi",
+            info: "Waroeng Semilir, dibuka sejak bulan juni 2018 lalu. Tanah sawah dijalan utama menuju Jorogo ini disulap oleh Agus Puryanto menjadi sebuah tempat kuliner",
+            link: "https://goo.gl/maps/jpb5RVrGxCkHLx4t9",
+          },
+          {
+            image: "airterjunpengantin.jpg",
+            title: "Visit Air Terjun Pengantin",
+            info: "Wisata Air Terjun Pengantin Ngawi adalah salah satu tempat wisata yang berada di desa hargo mulyo , kecamatan ngrambe . kabupaten ngawi . provinsi jawa timur . negara. indonesia . Wisata Air Terjun Pengantin Ngawi adalah tempat wisata yang ramai dengan wisatawan pada hari biasa maupun hari liburan. Tempat ini sangat indah dan bisa memberikan sensasi yangberbeda dengan aktivitas kita sehari hari. Wisata Air Terjun Pengantin Ngawi memiliki pesona keindahan yang sangat menarik untuk dikunjungi. Sangat di sayangkan jika anda berada di kota ngawi tidak mengunjungi wisata alam yang mempunyai keindahanyang tiada duanya tersebut.",
+            link: "https://www.google.com/maps/place/Air+Terjun+Pengantin/@-7.5459961,111.2072979,17z/data=!4m5!3m4!1s0x2e79f39ef7ad1045:0x512d0080024d1009!8m2!3d-7.5459961!4d111.2094866",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Air terjun Serambang",
+    image: "/image/info/airterjunserambang.jpg",
+    hari: [
+      {
+        tempat: [
+          {
+            image: "hotelmaksum.jpg",
+            title: "Tidur di Hotel Maksum Ngawi",
+            info: "Hotel Maksum Family terletak di Ngawi. Semua kamar memiliki TV kabel dan kamar mandi pribadi. Akomodasi ini menyediakan resepsionis 24 jam",
+            link: "https://goo.gl/maps/EJgZuYawS2qXqgQx7",
+          },
+        ],
+      },
+      {
+        tempat: [
+          {
+            image: "mbahcarik.jpg",
+            title: "Makan di Rumah Makan Mbah Carik Srambang Ngawi",
+            info: "Rumah Makan Mbah Carik Srambang. Jalan Mulyojaten RT.06/RW.03, Girimulyo,JogorogoNgawi,, Jawa Timur 63262. Bagi anda yang sedang berada di daerah Ngawi.",
+            link: "https://goo.gl/maps/RD8zKMSWQdwC2nkGA",
+          },
+          {
+            image: "airterjunserambang.jpg",
+            title: "Visit Air Terjun Srambang Park Ngawi",
+            info: "Srambang Park merupakan sebuah lokasi wisata yang menghadirkan panorama alam yang menyejukkan juga menenangkan jiwa dan raga. Banyak sekali deretan pohon pinus yang menjulang tinggi di sekitar lokasi, dihiasi dengan bunga-bunga cantik yang ikut meramaikan Srambang Park Ngawi ini. Lokasi wisata yang indah ini berada di Kabupaten Ngawi, tepatnya di Desa Girimulyo. Kabupaten Ngawi berada di bagian barat Provinsi Jawa Timur dan berbatasan langsung dengan Provinsi Jawa Tengah. Yang menjadi tujuan utama pengunjung ketika berada di Srambang Park ini ialah menuju Air Terjun Srambang Ngawi yang berada sekitar 500 meter dari area taman. Meskipun lokasi wisata ini sempat ditutup dalam rangka mencegah penyebaran Covid-19, namun saat ini sudah dibuka kembali. Namun pengunjung harus senantiasa memperhatikan 3M (Memakai masker, Mencuci tangan, serta Menjaga jarak).",
+            link: "https://www.google.com/maps/place/Air+Terjun+Srambang+Park+Ngawi/@-7.5688195,111.2260396,17z/data=!4m9!1m2!2m1!1sair+terjun+srambang+ngawi!3m5!1s0x2e79f318cd3d556d:0xa248a81317431797!8m2!3d-7.5662607!4d111.2307539!15sChlhaXIgdGVyanVuIHNyYW1iYW5nIG5nYXdpkgESdG91cmlzdF9hdHRyYWN0aW9u",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Waduk Pondok",
+    image: "/image/info/wadukpondok.jpg",
+    hari: [
+      {
+        tempat: [
+          {
+            image: "HotelSukawati.jpg",
+            title: "Tidur di Hotel Sukowati Ngawi",
+            info: "Hotel ini terletak di pusat kota, dekat dengan perempatan pusat dari Kota Ngawi (Perempatan Kartonyono). Hotel ini sekitar 300 meter dari kota Ngawi yang merupakan tempat wisata Kota Ngawi. Hotel ini memiliki sertifikasi tingkat Bintang 2 dengan dua lantai yang menyajikan pemandangan kota. Harga kamar di hotel ini berkisar antara Rp 100.000-Rp 200.000 dengan fasilitas yang cukup standar",
+            link: "https://goo.gl/maps/cpHSPPNse1zCVDDU7",
+          },
+
+          {
+            image: "hotelmaksum.jpg",
+            title: "Tidur di Hotel Maksum Ngawi",
+            info: "Hotel Maksum Family terletak di Ngawi. Semua kamar memiliki TV kabel dan kamar mandi pribadi. Akomodasi ini menyediakan resepsionis 24 jam",
+            link: "https://goo.gl/maps/EJgZuYawS2qXqgQx7",
+          },
+          {
+            image: "Wadukpondok.jpg",
+            title: "Visit Waduk Pondok",
+            info: "Waduk Pondok adalah sebuah obyek wisata yang bisa anda kunjungi di Desa Dero, Kecamatan Bringin, Kabupaten Ngawi, Jawa Timur. Selain dikenal dengan hutannya atau Alas Ketonggo, di Ngawi anda bisa menemukan beberapa wisata alam yang lainnya yang patut untuk anda kunjungi seperti Waduk Pondok yang pesonanya tidak kalah dari waduk-waduk lain di Jawa Timur. Waduk Pondok ini mulai dibangun dari sekitar tahun 1992 sampai 1997. Saat menginjakan kaki di sana, dulu anda bisa melihat banyak pepohonan kelapa walaupun sudah tidak banyak lagi sekarang, mungkin karena faktor dari air waduk atau dari kontur tanah sendiri. Tujuan dari pembangunan Waduk Pondok sendiri adalah untuk mengairi tiga kecamatan yaitu Bringin, Padas dan Pangkur. Namun ternyata waduk ini juga ramai dikunjungi wisatawan dan juga dijadikan sebagai salah satu spot mancing favorite di Ngawi plus sebagai tempat wisata kuliner. Di area waduk anda bisa merasakan masakan Gurami bakar di salah satu warung dengan harga yang terjangkau.",
+            link: "https://www.google.com/maps/place/Waduk+Pd.,+Bringin,+Kabupaten+Ngawi,+Jawa+Timur/@-7.3960551,111.5475533,14z/data=!3m1!4b1!4m5!3m4!1s0x2e79dca67e84a4c9:0xab38f61752dff735!8m2!3d-7.4099234!4d111.5632259",
+          },
+        ],
+      },
+    ],
+  },
+];
 
 function Card(props) {
   return (
@@ -432,6 +609,21 @@ function Card(props) {
           Google Maps
         </a>
       </div>
+    </div>
+  );
+}
+
+function Perjalanan(props) {
+  return (
+    <div
+      className="card col m-2"
+      style={{ minWidth: "20rem", maxWidth: "30rem" }}>
+      <img
+        src={props.image || "https://placeholder.pics/svg/200x100"}
+        className="card-img-top"
+        alt="card picture"
+      />
+      <div className="card-body">{props.children}</div>
     </div>
   );
 }
